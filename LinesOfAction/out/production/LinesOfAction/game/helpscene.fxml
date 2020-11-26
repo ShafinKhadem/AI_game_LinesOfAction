@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0"
+      prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <Label alignment="CENTER" layoutX="15.0" layoutY="15.0" prefHeight="325.0" prefWidth="380.0"
+           text="Left click on a cell to select it. If the cell is valid to be selected then it's border will be green. If there is a valid destination, click there to move selected piece there. Rules can be found in: http://www.boardspace.net/loa/english/index.html, http://www.iggamecenter.com/info/en/loa.html, https://en.wikipedia.org/wiki/Lines_of_Action (We are considering no draw)"
+           wrapText="true">
+        <font>
+         <Font name="Calibri" size="14.0"/>
+        </font>
+    </Label>
+</Pane>

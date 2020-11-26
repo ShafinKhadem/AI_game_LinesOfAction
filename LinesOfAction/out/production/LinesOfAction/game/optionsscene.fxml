@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="253.0" prefWidth="328.0" text="Choose game options" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="game.OptionsController">
+   <content>
+      <VBox>
+         <Pane prefHeight="50.0">
+            <children>
+               <Label layoutX="24.0" layoutY="16.0" text="Board size:" />
+               <RadioButton layoutX="140.0" layoutY="16.0" mnemonicParsing="false" selected="true" text="6">
+                  <toggleGroup>
+                     <ToggleGroup fx:id="bs" />
+                  </toggleGroup></RadioButton>
+               <RadioButton layoutX="220.0" layoutY="16.0" mnemonicParsing="false" text="8" toggleGroup="$bs" />
+            </children>
+         </Pane>
+         <Pane prefHeight="50.0">
+            <children>
+               <Label layoutX="24.0" layoutY="16.0" text="Black player:" />
+               <RadioButton layoutX="140.0" layoutY="16.0" mnemonicParsing="false" text="Human">
+                  <toggleGroup>
+                     <ToggleGroup fx:id="bp" />
+                  </toggleGroup></RadioButton>
+               <RadioButton layoutX="220.0" layoutY="16.0" mnemonicParsing="false" selected="true" text="AI" toggleGroup="$bp" />
+            </children>
+         </Pane>
+         <Pane prefHeight="50.0">
+            <children>
+               <Label layoutX="24.0" layoutY="16.0" text="White player:" />
+               <RadioButton layoutX="140.0" layoutY="16.0" mnemonicParsing="false" text="Human">
+                  <toggleGroup>
+                     <ToggleGroup fx:id="wp" />
+                  </toggleGroup></RadioButton>
+               <RadioButton layoutX="220.0" layoutY="16.0" mnemonicParsing="false" selected="true" text="AI" toggleGroup="$wp" />
+            </children>
+         </Pane>
+         <Pane prefHeight="50.0">
+            <children>
+               <Button layoutX="230.0" layoutY="16.0" mnemonicParsing="false" text="Submit" onAction="#optionsSubmit" />
+            </children>
+         </Pane>
+      </VBox>
+   </content>
+</TitledPane>

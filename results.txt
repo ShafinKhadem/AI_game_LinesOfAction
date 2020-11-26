@@ -1,0 +1,33 @@
+Experimented in 6 X 6.
+
+with TL=1000 ms:
+
+Black(1)        White(0)        Results
+-area           connectedness   00001101110011100111
+-area           density         10001000000100010100
+-area           mobility        11111111111111111111
+connectedness   -area           11000111000110101101
+connectedness   density         00001101000001000000
+connectedness   mobility        11111111111111111111
+density         -area           10111110111111101101
+density         connectedness   11111110111111111111
+density         mobility        11111111111111111111
+mobility        -area           00000000000000000000
+mobility        connectedness   00000000000000000000
+mobility        density         00000000000000000000
+
+with TL=500 ms:
+
+Black(1)        White(0)        Results
+-area           connectedness   11010011100110000001
+-area           density         00001000001100010111
+-area           mobility        11111111111111111111
+connectedness   -area           01111110000011001011
+connectedness   density         01011010100001000010
+connectedness   mobility        11111111111111111111
+density         -area           11101110101011111111
+density         connectedness   10111110111111111111
+density         mobility        11111111111111111111
+mobility        -area           00001000000000000010
+mobility        connectedness   00000000001100000000
+mobility        density         00000000000000000000
