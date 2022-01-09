@@ -10,4 +10,9 @@ https://en.wikipedia.org/wiki/Lines_of_Action
 (We are considering no draw)
 http://www.iggamecenter.com/info/en/loa.html (consider red checkers as black here)
 
-AI is implemented using C++ program implementing Minimax algorithm with alpha beta pruning (with various heuristics)
+AI is implemented using C++ program implementing Minimax algorithm with alpha beta pruning (with various heuristics).
+AI goes as deep as possible in 2 seconds.
+
+gradle create jar: ./gradlew jar
+
+Compile `AI.cpp` and name the executable as `AI`. then run java -jar LinesOfAction.jar from the same directory as `AI`.

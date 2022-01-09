@@ -1,2 +1,8 @@
 
 LinesOfAction/out/
+
+LinesOfAction/.gradle/
+
+LinesOfAction/build/
+
+LinesOfAction/shared_file.txt
