@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LinesOfAction:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/LinesOfAction_jar</output-path>
+    <root id="archive" name="LinesOfAction.jar">
+      <element id="module-output" name="LinesOfAction" />
+      <element id="extracted-dir" path="/usr/share/openjfx/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/openjfx/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/openjfx/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/openjfx/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/openjfx/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/openjfx/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/openjfx/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="/usr/share/openjfx/lib/javafx.graphics.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
